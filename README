@@ -27,7 +27,8 @@ Installing the PhD renderer:
 
 Requirements:
     - PHP 5.3
-    - DOM, libXML2, XMLReader and SQLite3.
+    - DOM, libXML2, XMLReader and SQLite3
+    - Optional: pecl/haru for PDF, ext/posix for additional terminal configs
 
 After installing PhD you can use the `phd` command
 to render the documentations. To see a list of available packages/formats
